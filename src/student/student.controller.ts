@@ -11,7 +11,6 @@ export class StudentController {
     ) {
       try {
         const data = await this.managerService.findAll();
-        console.log(data)
        return data
       } catch (err) {
       
